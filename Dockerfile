@@ -1,4 +1,4 @@
-FROM redis
+FROM redis6-alpine
 
 MAINTAINER Stenn Kool <stennkool@gmail.com>
 
