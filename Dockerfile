@@ -1,6 +1,4 @@
-FROM redis6-alpine
-
-MAINTAINER Stenn Kool <stennkool@gmail.com>
+FROM redis:6-alpine
 
 RUN echo 'vm.overcommit_memory = 1' >> /etc/sysctl.conf
 COPY redis.conf /etc/redis.conf
